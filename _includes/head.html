@@ -8,27 +8,13 @@
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
   {%- endif -%}
-
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.21.0/themes/prism.min.css" rel="stylesheet" />
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.21.0/plugins/line-numbers/prism-line-numbers.min.css" rel="stylesheet" />
-
-  <!-- highlight.js support -->
-  <link rel="stylesheet" href="/js/highlightjs/styles/github.css">
-  <link rel="stylesheet" href="/js/highlightjs/styles/ssms.css" />
-
-  <script type="text/javascript" src="/js/highlightjs/highlight.min.js"></script>
-
-  <script type="text/javascript" src="/js/highlightjs/languages/plaintext.min.js"></script>
-  <script type="text/javascript" src="/js/highlightjs/languages/powershell.min.js"></script>
-  <script type="text/javascript" src="/js/highlightjs/languages/tsql.min.js"></script>
-
-  <script type="text/javascript"> hljs.highlightAll(); </script>  
-  <!-- end highlight.js support -->
-  <!-- dark theme using DarkReader -->
-<script src="//unpkg.com/darkreader@4.9.40/darkreader.js"></script>
-<script type="text/javascript">
-  DarkReader.setFetchMethod(window.fetch); // Fix to remedy CORS errors in chrome console
-  DarkReader.enable();
-  //DarkReader.auto( {brightness: 100, contrast: 90, sepia: 10} );
-</script>
+  <link rel="stylesheet" href="/js/highlightjs/styles/vs2015.min.css">
+  <script src="/js/highlightjs/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
+  <script src="//unpkg.com/darkreader@4.9.40/darkreader.js"></script>
+  <script type="text/javascript">
+    DarkReader.setFetchMethod(window.fetch); // Fix to remedy CORS errors in chrome console
+    DarkReader.enable();
+    //DarkReader.auto( {brightness: 100, contrast: 90, sepia: 10} );
+  </script>
 </head>
