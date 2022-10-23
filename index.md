@@ -1,5 +1,1 @@
-Here you can say lots of fun things about your site.
-
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+Stig Schmidt Nielsson's blog mainly about software engineering using C# and .Net
