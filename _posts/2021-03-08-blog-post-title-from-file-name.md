@@ -12,7 +12,7 @@ This is a sample blog post. You can talk about all sorts of fun things here.
 
 #### Some C# Code
 
-```c#
+```cs
 public class XYS {
   private readonly string _s;
   public XYS(string s) {
