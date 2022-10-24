@@ -22,6 +22,19 @@ public class XYS {
 }
 ```
 
+## Premonitions test
+
+does it work ? 
+
+> info "I am some info"
+> The body of the info box goes here. Premonition allows you to write any `Markdown` inside the block.
+
+
+after...
+
+
+
+
 ## Some SQL
 
 ```sql

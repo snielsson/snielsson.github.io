@@ -20,6 +20,8 @@ linkedin_username: "snielsson"
 #########################################################################################
 theme: "minima"
 
+excerpt_separator   : "\n\n"
+
 rss: rss
 
 kramdown:
@@ -29,6 +31,7 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - premonition  
 
 titles_from_headings:
   strip_title: true
